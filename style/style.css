@@ -4,7 +4,7 @@ div#cabecera {
     padding: 15px;
     /*overflow: auto no deja que se salgan las imágenes del espacio DIV*/
     overflow: auto;
-    background-color: blue;
+    background-color: rgb(200, 200, 230);
 }
 
 img#present {
