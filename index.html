@@ -1,99 +1,81 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="es">
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Curriculum</title>
-    <link rel="stylesheet" href="style/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Programador Jr.</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="cabecera">
-        <img src="img/marcel.png" id="present">
-        <h1>Marcel Enrique Hidalgo Pérez</h1>
-        <p id="empleo_actual">Ing. de Proyectos</p>
-        <P id="contact"> <img src="img/cell.png" class="img_contact"> <img src="img/whatsapp.png" class="img_contact"> 096 612935 | <img src="img/email.png" class="img_contact"> marcelhidalgoperez@gmail.com | <img src="img/linkedin.png" class="img_contact"> <a href="https://www.linkedin.com/in/marcel-enrique-hidalgo-pérez-08370b9a/">marcel-enrique-hidalgo-pérez-08370b9a</a>            </P>
-        <p id="description">
-            Me apasiona la investigación y la lectura. Soy una persona que continuamente busca superarse y estoy siempre <br> dispuesto aceptar cualquier reto. Estudié Ciencia de la Computación y me desempeño como Ing. de Proyectos.
-        </p>
-    </div>
+    <nav class="site-header sticky-top py-1 bg-dark">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="#datosPeronales">Contacto</a>
+            <a class="py-2 d-none d-md-inline-block" href="">Estudios</a>
+            <a class="py-2 d-none d-md-inline-block" href="">Experiencia</a>
+            <a class="py-2 d-none d-md-inline-block" href="">Habilidades</a>
+            <a class="py-2 d-none d-md-inline-block" href="">Redes</a>
+        </div>
+    </nav>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="m-5">
 
-    <hr>
-    <ul>
-        <li> <a href="#experiencia">Experiencia profesional</a> </li>
-        <li> <a href="#habilidades">Habilidades y conocimientos</a> </li>
-        <li><a href="#edu">Educación</a></li>
-        <li><a href="#sociales">Perfiles sociales</a></li>
-        <li><a href="contactar.html">Contactar</a></li>
-    </ul>
-    <h2 id="experiencia">Experiencia profesional</h2>
-    <table style="border: hidden;" cellspacing="10">
-        <thead>
-            <tr>
-                <th>Empresa/Organización</th>
-                <th>Cargo</th>
-                <th>Localización</th>
-                <th>Desde-hasta</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="empleador">Servinfo</td>
-                <td>Ing. de Proyectos</td>
-                <td>Montevideo, Uruguay</td>
-                <td>Junio 2019 - Actualidad</td>
-            </tr>
-            <tr>
-                <td class="empleador">Universidad de Holguín</td>
-                <td>Profesor Instructor</td>
-                <td>Holguín, Cuba</td>
-                <td>Septiembre 2018 - Mayo 2019</td>
-            </tr>
-            <tr>
-                <td class="empleador">Islazul</td>
-                <td>Administrador de Red y Sistemas</td>
-                <td>Holguín, Cuba</td>
-                <td>Septiembre 2014 - Mayor 2019</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2 id="habilidades">Habilidades y conocimientos</h2>
-    <ul>
-        <li><strong>Programación: </strong>Python, JavaScript, CSS3, HTML5, SQL</li>
-        <li><strong>Sistemas Operativos:</strong>Windows(7,10), Windows Server(2003, 2008, 2012, 2016), Linux Debian</li>
-    </ul>
-    <hr>
-    <h2 id="edu">Educación</h2>
-    <table style="border: hidden;" cellspacing="10">
-        <thead>
-            <tr>
-                <th>Título</th>
-                <th>Entidad</th>
-                <th>Promoción</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Desarrollo Web</td>
-                <td>Plan Ceibal(Jóvenes a Programar)</td>
-                <td>Cursando</td>
-            </tr>
-            <tr>
-                <td>Lic. en Ciencia de la Computación</td>
-                <td>Universidad de Oriente</td>
-                <td>2014</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2 id="sociales">Perfiles sociales</h2>
-    <p>También puedes encontrarme en:</p>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/marcel-enrique-hidalgo-pérez-08370b9a/">Linkedin</a></li>
-    </ul>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+
+            <div id="contact">
+                <h1 id="contacto">Contacto</h1>
+                <table id="tableContact">
+                    <tbody>
+                        <tr>
+                            <th><img id="cell" src="img/cell.png">(+598) 096612935</th>
+                            <th><img id="email" src="img/email.png">marcelhidalgoperez@gmail.com</th>
+                            <th><img id="linkedin" src="img/linkedin.png"><a href="https://www.linkedin.com/in/marcel-enrique-hidalgo-p%C3%A9rez-08370b9a/">marcel-enrique-hidalgo-p%C3%A9rez-08370b9a</a></th>
+                        </tr>
+                    </tbody>
+                </table>
+                </di>
+
+                <hr>
+
+                <h1 id="estudio">Estudios Universitario</h1>
+                <table id="tableContact">
+                    <tbody>
+                        <tr>
+                            <th>Universidad de Oriente</th>
+                            <th>Stgo. de Cuba, Cuba</th>
+                        </tr>
+                        <tr>
+                            <th>LICENCIATURA EN CIENCIA DE LA COMPUTACION</th>
+                            <th>Sep. 2009 - Jul. 2014 </th>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+            </div>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Volver arriba</a>
+            </p>
+            <p>Este sitio forma parte de mi desarrollo</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/init.js"></script>
 </body>
 
 </html>

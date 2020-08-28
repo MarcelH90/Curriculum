@@ -1,0 +1,81 @@
+.jumbotron,
+.card-body,
+.container,
+.site-header {
+    font-family: 'Raleway', serif !important;
+}
+
+.jumbotron .display-4 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    height: 30vh;
+    padding: 5em inherit;
+    margin-bottom: 0;
+    background-color: #53C0FB;
+    background: url('../img/cover_back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    font-weight: bold;
+    overflow: auto;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.site-header a {
+    color: white;
+    transition: ease-in-out color .15s;
+}
+
+
+/*div del contacto*/
+
+div#contact {
+    align-content: center;
+    text-align: center;
+}
+
+
+/*tabla donde coloco datos para contactarme*/
+
+table#tableContact {
+    text-align: center;
+    align-content: center;
+}
+
+
+/*Datos de mi contacto*/
+
+h1#contacto {
+    text-align: center;
+}
+
+img#foto {
+    width: 150px;
+    text-align: center;
+    overflow: auto;
+}
+
+img#cell {
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+img#email {
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+img#linkedin {
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+}
